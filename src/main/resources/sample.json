@@ -1,0 +1,48 @@
+{
+  "GetPeriodGroupRes" : {
+    "root" : {
+      "children" : [ {
+        "text" : "Monthly_Cycle_Group 1",
+        "periodGroupId" : "1",
+        "periodGroup" : "Monthly_Cycle_Group 1",
+        "children" : [ {
+          "siblingChild" : {
+            "leafId" : 2,
+            "smsPeriodId" : "20221502",
+            "year" : "2022",
+            "periodStartDate" : "01-Jan-2022",
+            "periodEndDate" : "01-Apr-2022",
+            "periodTag" : "bonus",
+            "periodLabel" : "MM2022015",
+            "noOfDays" : "30",
+            "periodSeq" : "1",
+            "switchPeriodSet" : "2"
+          },
+          "siblingCount" : 0
+        }, {
+          "siblingChild" : {
+            "leafId" : 1,
+            "smsPeriodId" : "20221408",
+            "year" : "2022",
+            "periodStartDate" : "01-Jan-2022",
+            "periodEndDate" : "01-Mar-2022",
+            "periodTag" : "bonus",
+            "periodLabel" : "MM2022008",
+            "noOfDays" : "30",
+            "periodSeq" : "0",
+            "switchPeriodSet" : "1"
+          },
+          "siblingCount" : 0
+        } ],
+        "siblingCount" : 2
+      } ],
+      "siblingCount" : 1
+    },
+    "serviceStatus" : {
+      "statusFlag" : null,
+      "statusCode" : "success_msg",
+      "statusMsg" : null
+    },
+    "totalCount" : 3
+  }
+}
